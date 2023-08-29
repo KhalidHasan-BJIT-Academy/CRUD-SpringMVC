@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Employee</title>
+</head>
+<body>
+<h1>Add Employee Info</h1>
+<form action="/save-employee" method="post">
+    <p>Employee employeeID</p>
+    <input type="number" name="employeeID"/>
+    <p>Employee name</p>
+    <input type="text" name="name"/>
+    <p>Candidate's Address</p>
+    <input type="text" name="address"/>
+    <button type="submit">Add Candidate</button>
+</form>
+</body>
+</html>
